@@ -1,22 +1,24 @@
-name: Prisma Cloud CI/CD Scanner
-
+name: Bridgecrew
 on:
+  pull_request:
   push:
     branches:
       - master
-
 jobs:
-  build:
-
-    runs-on: debian-latest
-
+  scan:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+
       - name: Run Bridgecrew 
         id: Bridgecrew
         uses: bridgecrewio/bridgecrew-action@master 
         env:
-          PRISMA_API_URL: https://api4.prismacloud.io
+          PRISMA_API_URL: https://api3.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
+
