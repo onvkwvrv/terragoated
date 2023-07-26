@@ -9,8 +9,8 @@ resource "azurerm_virtual_network" "example" {
     git_last_modified_at = "2020-06-17 12:59:55"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "6e4b4d6f-e827-4c74-8375-217e82f0c42a"
   }
 }
@@ -38,8 +38,8 @@ resource "azurerm_network_interface" "ni_linux" {
     git_last_modified_at = "2020-06-17 15:48:15"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "c193559b-d423-4123-b54b-3ee74a2fb3f0"
   }
 }
@@ -60,8 +60,8 @@ resource "azurerm_network_interface" "ni_win" {
     git_last_modified_at = "2020-06-17 15:48:15"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "dab0d80e-252a-441b-b4f5-dae6f1baf23e"
   }
 }
@@ -100,8 +100,8 @@ resource azurerm_network_security_group "bad_sg" {
     git_last_modified_at = "2020-06-17 12:59:55"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "b013aa2c-a9de-445c-a155-809d952235a2"
   }
 }
@@ -116,8 +116,8 @@ resource azurerm_network_watcher "network_watcher" {
     git_last_modified_at = "2020-06-17 12:59:55"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "06cc0461-37df-40b6-bb07-1dc931944ec0"
   }
 }
@@ -131,5 +131,9 @@ resource azurerm_network_watcher_flow_log "flow_log" {
   retention_policy {
     enabled = false
     days    = 10
+  }
+  tags = {
+    git_org  = "ghouldaemon"
+    git_repo = "terragoated"
   }
 }

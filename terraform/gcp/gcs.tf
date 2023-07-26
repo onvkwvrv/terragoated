@@ -7,8 +7,8 @@ resource "google_storage_bucket" "terragoat_website" {
     git_last_modified_at = "2020-07-08 12:02:14"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "6b4a2e7a-c149-4082-91de-72ea665ce0ac"
   }
 }
@@ -28,8 +28,8 @@ resource "google_storage_bucket" "internal_storage" {
     git_last_modified_at = "2020-07-30 15:31:05"
     git_last_modified_by = "mikeurbanski1@users.noreply.github.com"
     git_modifiers        = "mikeurbanski1"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "8fb535d3-d75b-4557-8f1c-8260b7bc9230"
   }
 }
