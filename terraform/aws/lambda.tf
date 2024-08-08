@@ -17,14 +17,15 @@ resource "aws_iam_role" "iam_for_lambda" {
 }
 EOF
   tags = {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "42d7d387f7aa3eb58745d74f567729f5f5bca493"
     git_file             = "terraform/aws/lambda.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2023-03-01 20:22:35"
+    git_last_modified_by = "40035609+ghouldaemon@users.noreply.github.com"
+    git_modifiers        = "40035609+ghouldaemon"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "25847052-213e-4654-9000-c57924a6ad04"
+    yor_name             = "iam_for_lambda"
   }
 }
 
@@ -46,13 +47,14 @@ resource "aws_lambda_function" "analysis_lambda" {
     }
   }
   tags = {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "42d7d387f7aa3eb58745d74f567729f5f5bca493"
     git_file             = "terraform/aws/lambda.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2023-03-01 20:22:35"
+    git_last_modified_by = "40035609+ghouldaemon@users.noreply.github.com"
+    git_modifiers        = "40035609+ghouldaemon"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "611e7f1a-047c-4b66-9028-39dd298833b4"
+    yor_name             = "analysis_lambda"
   }
 }

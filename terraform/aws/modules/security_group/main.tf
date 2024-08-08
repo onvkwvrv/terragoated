@@ -22,13 +22,14 @@ resource "aws_security_group" "sg" {
 
   tags = {
     Name                 = "allow_ssh"
-    git_commit           = "b829f155d3446ceb1ae6b472df94f23787459f70"
+    git_commit           = "42d7d387f7aa3eb58745d74f567729f5f5bca493"
     git_file             = "terraform/aws/modules/security_group/main.tf"
-    git_last_modified_at = "2020-12-02 20:40:15"
-    git_last_modified_by = "mike@bridgecrew.io"
-    git_modifiers        = "mike"
-    git_org              = "try-bridgecrew"
-    git_repo             = "terragoat"
+    git_last_modified_at = "2023-03-01 20:22:35"
+    git_last_modified_by = "40035609+ghouldaemon@users.noreply.github.com"
+    git_modifiers        = "40035609+ghouldaemon"
+    git_org              = "ghouldaemon"
+    git_repo             = "terragoated"
     yor_trace            = "02dd6ff5-f153-4c6d-bc14-24ca7414b0b4"
+    yor_name             = "sg"
   }
 }
