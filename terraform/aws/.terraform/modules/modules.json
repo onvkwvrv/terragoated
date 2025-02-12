@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"sg1","Source":"./terraform/aws/modules/security_group","Dir":""},{"Key":"sg2","Source":"./modules/security_group","Dir":"modules/security_group"}]}
