@@ -1,0 +1,8 @@
+{
+    "checkov.prismaURL": "https://api0.prismacloud.io",
+    "checkov.token": "a92787a0-bf6a-4277-8f05-f67dbb2b7663::A6BhaeMctV9WTN63znlPjDkT7AE=",
+    "prismaCloud.secretKey": "A6BhaeMctV9WTN63znlPjDkT7AE=",
+    "prismaCloud.prismaURL": "https://api0.prismacloud.io",
+    "prismaCloud.accessKey": "a92787a0-bf6a-4277-8f05-f67dbb2b7663",
+    "prismaCloud.specificFrameworks": "all"
+}
